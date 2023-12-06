@@ -1,0 +1,1 @@
+Ignite's ReactJS Challenge 5 isn't available in a separate file because it only has a few minor changes, so I did that in the project file itself.
