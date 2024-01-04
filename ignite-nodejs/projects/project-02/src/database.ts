@@ -9,7 +9,7 @@ export const config: Knex.Config = {
           filename: env.DATABASE_URL,
         }
       : env.DATABASE_URL,
-  useNullAsDefault: true, // pois o sqlite não suporta inserir valores padrões pras colunas
+  useNullAsDefault: true, // cause sqlite doesn't support inserting default values for columns
   migrations: {
     extension: 'ts',
     directory: './database/migrations',
