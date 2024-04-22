@@ -1,6 +1,6 @@
-# Ignite Courses Vault
-
 <img src=".github/assets/ignite-courses-vault-banner.png" width="100%" />
+
+# Ignite Courses Vault
 
 ### First, What is Ignite?
 Ignite is a private specialization provided by Rocketseat, focused on teach the most modern tools and technologies of the programming market. During this program, I've studied technologies like: ReactJS & NextJS, NodeJS & NestJS and DevOps practices.
