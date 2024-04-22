@@ -12,14 +12,14 @@ const posts: Post[] = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/felipemacci.png',
-      name: 'Felipe Macci',
+      avatarUrl: 'https://github.com/feponiel.png',
+      name: 'Felipe Elias',
       role: 'Web Developer'
     },
     content: [
       { type: 'paragraph', text: 'Hey guyss 👋' },
       { type: 'paragraph', text: 'I just uploaded another project in my portfolio. It\'s a project I did at NLW Return, Rocketseat event. The project name is DoctorCare 🚀' },
-      { type: 'link', text: '👉 macci.design/doctorcare' }
+      { type: 'link', text: '👉 feponiel.com/doctorcare' }
     ],
     publishedAt: new Date('2022-08-31 01:30:42')
   },

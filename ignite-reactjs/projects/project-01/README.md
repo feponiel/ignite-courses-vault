@@ -1,29 +1,25 @@
-<h1 align="center">IGNITE FEED 📭</h1>
-<h3 align="center">ROCKETSEAT IGNITE REACTJS: PROJECT 1 FILES</h3>
+<img src=".github/ignite-feed-banner.svg">
 
-<br/>
+# Ignite ReactJS Project 01: Ignite Feed
+Ignite Feed is a little blog application where you can share your ideas with people.
 
-<p align="center">
-    <img width="800px" src="./.github/demo.png" alt="Demo Image">
-</p>
+## Get started
+To enjoy this little application you will need to run the project on your computer. Start downloading the project and installing the dependencies:
 
-<br />
+> Is required to have [NodeJS](https://nodejs.org/en) installed on your machine.
 
-#### TECHNOLOGIES:
-- HTML 📄
-- CSS 🎨
-- TypeScript 💻
-- ReactJS ⚛
-- NodeJS 🐱‍👤
+```
+npm install
+```
 
-<br />
+After that, you'll be able to run the project on your machine without any problems just running the command above:
 
-#### HOW TO USE:
-* First have NodeJS on your machine
-* With the project folder already open in VS CODE (or similar) type the commands in the sequence: "npm install" and "npm run dev"
-* Then open the domain that appeared in your console
-* Finally, use and enjoy the Ignite Feed!
+```
+npm run dev
+```
 
-<br />
+## Technologies & Tools
+Vite, ReactJS, CSS Modules, TypeScript, Local Storage.
 
-<p align="center">Felipe Macci</p>
+## More about
+<a href="https://ignite-reactjs-project-01-ignite-feed.vercel.app">Deploy</a> | <a href="https://www.figma.com/file/JuCGXtGkQEVduYM7KlkkB7/Ignite-Feed-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-01/LICENSE">License</a>

@@ -9,8 +9,8 @@ export function Sidebar() {
             <img className={ styles.banner } src="https://sm.ign.com/ign_br/screenshot/default/blob_ut5r.jpg" />
 
             <div className={ styles.profile }>
-                <Avatar src="https://github.com/felipemacci.png" />
-                <strong>Felipe Macci</strong>
+                <Avatar src="https://github.com/feponiel.png" />
+                <strong>Felipe Elias</strong>
                 <span>Web Developer</span>
             </div>
 
