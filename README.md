@@ -1,0 +1,15 @@
+# Ignite Courses Vault
+
+<img src=".github/assets/ignite-courses-vault-banner.png" width="100%" />
+
+### First, What is Ignite?
+Ignite is a private specialization provided by Rocketseat, focused on teach the most modern tools and technologies of the programming market. During this program, I've studied technologies like: ReactJS & NextJS, NodeJS & NestJS and DevOps practices.
+
+### Get started
+This repository is divided by technologies and you can access it clicking on the buttons below. Each part has your own `projects` and `challenges` folder. The "projects" folders are the projects that I made with the course instructor while watching the classes and learning the technology. The "challenges" folders are the projects that I made by myself after finishing the respective project (without consulting the classes). For instance, after watching a certain amount of classes creating and finishing the `project-01`, the Rocketseat leaves a documentation (or figma layout) that contains some instructions to complete the `challenge-01`, which is a project to be maded without any classes, just to practice what you've learned in the module.
+
+---
+
+<br />
+
+[![ReactJS Badge](https://img.shields.io/badge/-Access_ReactJS_Projects-blue?style=flat-square&logo=React&logoColor=white&link=https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-reactjs/)](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-reactjs) [![NodeJS Badge](https://img.shields.io/badge/-Access_NodeJS_Projects-green?style=flat-square&logo=Node.js&logoColor=white&link=https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-nodejs/)](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-nodejs)
