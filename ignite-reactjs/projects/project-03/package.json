@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build": "tsc && vite build && json-server server.json -w -d 500",
     "preview": "vite preview",
     "dev:server": "json-server server.json -w -d 500",
     "lint": "eslint src --ext .tsx,.ts",
