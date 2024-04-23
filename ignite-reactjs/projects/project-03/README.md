@@ -1,29 +1,31 @@
-<h1 align="center">IGNITE DT MONEY 💲</h1>
-<h3 align="center">ROCKETSEAT IGNITE REACTJS: PROJECT 3 FILES</h3>
+<img src=".github/dt-money-banner.svg">
 
-<br/>
+# Ignite ReactJS Project 03: DT Money
+DT Money is a little finance application where you can control your income and expenses.
 
-<p align="center">
-    <img width="800px" src="./.github/demo.png" alt="Demo Image">
-</p>
+## Get started
+To enjoy this little application you will need to run the project on your computer. Start downloading the project and installing the dependencies:
 
-<br />
+> Is required to have [NodeJS](https://nodejs.org/en) installed on your machine.
 
-#### TECHNOLOGIES:
-- HTML 📄
-- Styled-Components 🎨
-- TypeScript 💻
-- ReactJS ⚛
-- NodeJS 🐱‍👤
+```
+npm install
+```
 
-<br />
+Then, you'll need to run the application server (which is a JSON server on `server.json`):
 
-#### HOW TO USE:
-* First have NodeJS on your machine
-* With the project folder already open in VS CODE (or similar) type the commands in the sequence: "npm install", "npm run dev:server" and "npm run dev"
-* Then open the domain that appeared in your console
-* Finally, use and enjoy the Ignite DT Money!
+```
+npm run dev:server
+```
 
-<br />
+After that, you'll be able to run the project on your machine without any problems just running the command below in another terminal:
 
-<p align="center">Felipe Macci</p>
+```
+npm run dev
+```
+
+## Technologies & Tools
+Vite, ReactJS, Styled-Components, TypeScript, React Router DOM, React Hook Form, React Context API, Zod, Axios, JSON Server.
+
+## More about
+<a href="https://ignite-reactjs-project-03-dt-money.vercel.app">Deploy</a> | <a href="https://www.figma.com/file/tbN3IRcIeyNlLjF0hkcGqW/DT-Money-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-03/LICENSE">License</a>

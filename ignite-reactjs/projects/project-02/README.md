@@ -12,7 +12,7 @@ To enjoy this little application you will need to run the project on your comput
 npm install
 ```
 
-After that, you'll be able to run the project on your machine without any problems just running the command above:
+After that, you'll be able to run the project on your machine without any problems just running the command below:
 
 ```
 npm run dev
