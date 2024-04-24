@@ -1,14 +1,14 @@
-import type { Meta, StoryObj } from '@storybook/react'
+import type { Meta, StoryObj } from "@storybook/react";
 import {
   Box,
   Button,
   Text,
   Tooltip,
   TooltipProps,
-} from '@macci-ignite-ui/react'
+} from "@feponiel-ignite-ui/react";
 
 export default {
-  title: 'Form/Tooltip',
+  title: "Form/Tooltip",
   component: Tooltip,
   args: {},
   decorators: [
@@ -16,23 +16,23 @@ export default {
       return (
         <Box
           css={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            padding: '$20 0',
-            background: '$gray500',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            padding: "$20 0",
+            background: "$gray500",
           }}
         >
           {Story()}
         </Box>
-      )
+      );
     },
   ],
-} as Meta<TooltipProps>
+} as Meta<TooltipProps>;
 
 export const Primary: StoryObj<TooltipProps> = {
   args: {
     children: <Button variant="secondary">Hover</Button>,
     content: <Text>Something interesting...</Text>,
   },
-}
+};

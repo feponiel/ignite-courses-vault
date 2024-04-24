@@ -1,4 +1,4 @@
-# @macci-ignite-ui/tokens
+# @feponiel-ignite-ui/tokens
 
 ## 1.2.0
 

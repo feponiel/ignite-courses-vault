@@ -1,3 +1,3 @@
 {
-  "extends": "@macci-ignite-ui/eslint-config"
+  "extends": "@feponiel-ignite-ui/eslint-config"
 }
