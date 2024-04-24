@@ -1,30 +1,40 @@
-<h1 align="center">IGNITE SHOP 🛒</h1>
-<h3 align="center">ROCKETSEAT IGNITE REACTJS: PROJECT 4 FILES</h3>
+<img src=".github/ignite-shop-banner.svg">
 
-<br/>
+# Ignite ReactJS Project 04: Ignite Shop
+Ignite Shop is a little and simple e-commerce integrated with Stripe, where you can showcase and sell your products.
 
-<p align="center">
-    <img width="800px" src="./.github/demo.png" alt="Demo Image">
-</p>
+## Get started
+To enjoy this little application you will need to run the project on your computer. Start downloading the project and installing the dependencies:
 
-<br />
+> Is required to have [NodeJS](https://nodejs.org/en) installed on your machine.
 
-#### TECHNOLOGIES:
-- NextJS ⚜
-- Stitches 🎨
-- TypeScript 💻
-- ReactJS ⚛
-- NodeJS 🐱‍👤
+```
+npm install
+```
 
-<br />
+Then, you'll need to set your [Stripe API Keys](https://docs.stripe.com/keys) inside a .env file.
 
-#### HOW TO USE:
-* First have NodeJS on your machine
-* With the project folder already open in VS CODE (or similar) make sure you have set the environment variables: "NEXT_URL" (main site url), "STRIPE_PUBLIC_KEY" and "STRIPE_SECRET_KEY"
-* Type the commands in the sequence: "npm install" and "npm run dev"
-* Then open the domain that appeared in your console
-* Finally, use and enjoy the Ignite Shop!
+> You can see an example of how to setup your environment variables in [.env.example](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-reactjs/projects/project-04/.env.example)
 
-<br />
+```
+# Your .env file will look like this
 
-<p align="center">Felipe Macci</p>
+NEXT_URL="http://localhost:3000"
+
+STRIPE_PUBLIC_KEY="YOUR_PUBLIC_KEY_HERE"
+STRIPE_SECRET_KEY="YOUR_SECRET_KEY_HERE"
+```
+
+After these steps, you will need to [create some products](https://support.stripe.com/questions/how-to-create-products-and-prices) in your store.
+
+Finally, you'll be able to run the project on your machine without any problems just running the command below:
+
+```
+npm run dev
+```
+
+## Technologies & Tools
+ReactJS, NextJS, Stitches, TypeScript, Next API Routes, Axios, Stripe.
+
+## More about
+<a href="https://ignite-reactjs-project-04-ignite-shop.vercel.app">Deploy</a> | <a href="https://www.figma.com/file/HotKgAtvZ0xhGlvOQFhDCh/Ignite-Shop-•-Projeto-React-(Copy)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-04/LICENSE">License</a>
