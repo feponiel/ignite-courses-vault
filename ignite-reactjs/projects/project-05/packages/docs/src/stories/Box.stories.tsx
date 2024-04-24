@@ -1,8 +1,8 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@macci-ignite-ui/react'
+import type { StoryObj, Meta } from "@storybook/react";
+import { Box, BoxProps, Text } from "@feponiel-ignite-ui/react";
 
 export default {
-  title: 'Surfaces/Box',
+  title: "Surfaces/Box",
   component: Box,
 
   args: {
@@ -16,6 +16,6 @@ export default {
       },
     },
   },
-} as Meta<BoxProps>
+} as Meta<BoxProps>;
 
-export const Primary: StoryObj<BoxProps> = {}
+export const Primary: StoryObj<BoxProps> = {};

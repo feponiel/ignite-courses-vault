@@ -1,56 +1,56 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@macci-ignite-ui/react'
-import { ArrowRight } from 'phosphor-react'
+import type { StoryObj, Meta } from "@storybook/react";
+import { Button, ButtonProps } from "@feponiel-ignite-ui/react";
+import { ArrowRight } from "phosphor-react";
 
 export default {
-  title: 'Form/Button',
+  title: "Form/Button",
   component: Button,
 
   args: {
-    children: 'Send',
-    variant: 'primary',
-    size: 'md',
+    children: "Send",
+    variant: "primary",
+    size: "md",
     disabled: false,
   },
 
   argTypes: {
     variant: {
-      options: ['primary', 'secondary', 'tertiary'],
+      options: ["primary", "secondary", "tertiary"],
       control: {
-        type: 'inline-radio',
+        type: "inline-radio",
       },
     },
 
     size: {
-      options: ['sm', 'md'],
+      options: ["sm", "md"],
       control: {
-        type: 'inline-radio',
+        type: "inline-radio",
       },
     },
 
     disabled: {
       control: {
-        type: 'boolean',
+        type: "boolean",
       },
     },
   },
-} as Meta<ButtonProps>
+} as Meta<ButtonProps>;
 
-export const Primary: StoryObj<ButtonProps> = {}
+export const Primary: StoryObj<ButtonProps> = {};
 
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
-    variant: 'secondary',
-    children: 'Create new',
+    variant: "secondary",
+    children: "Create new",
   },
-}
+};
 
 export const Tertiary: StoryObj<ButtonProps> = {
   args: {
-    variant: 'tertiary',
-    children: 'Cancel',
+    variant: "tertiary",
+    children: "Cancel",
   },
-}
+};
 
 export const WithIcon: StoryObj<ButtonProps> = {
   args: {
@@ -61,10 +61,10 @@ export const WithIcon: StoryObj<ButtonProps> = {
       </>
     ),
   },
-}
+};
 
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,
   },
-}
+};

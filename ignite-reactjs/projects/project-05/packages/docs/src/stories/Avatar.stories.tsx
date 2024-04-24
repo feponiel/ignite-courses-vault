@@ -1,28 +1,28 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@macci-ignite-ui/react'
+import type { StoryObj, Meta } from "@storybook/react";
+import { Avatar, AvatarProps } from "@feponiel-ignite-ui/react";
 
 export default {
-  title: 'Data display/Avatar',
+  title: "Data display/Avatar",
   component: Avatar,
 
   args: {
-    src: 'https://github.com/felipemacci.png',
-    alt: 'Felipe Macci',
+    src: "https://github.com/feponiel.png",
+    alt: "Felipe Elias",
   },
 
   argTypes: {
     src: {
       control: {
-        type: 'text',
+        type: "text",
       },
     },
   },
-} as Meta<AvatarProps>
+} as Meta<AvatarProps>;
 
-export const Primary: StoryObj<AvatarProps> = {}
+export const Primary: StoryObj<AvatarProps> = {};
 
 export const WithFallback: StoryObj<AvatarProps> = {
   args: {
     src: undefined,
   },
-}
+};

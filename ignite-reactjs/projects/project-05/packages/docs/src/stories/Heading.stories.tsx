@@ -1,30 +1,30 @@
-import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@macci-ignite-ui/react'
+import type { StoryObj, Meta } from "@storybook/react";
+import { Heading, HeadingProps } from "@feponiel-ignite-ui/react";
 
 export default {
-  title: 'Typography/Heading',
+  title: "Typography/Heading",
   component: Heading,
 
   args: {
-    size: 'md',
-    children: 'Lorem ipsum',
+    size: "md",
+    children: "Lorem ipsum",
   },
 
   argTypes: {
     size: {
-      options: ['sm', 'md', 'lg', '2xl', '4xl', '5xl', '6xl'],
+      options: ["sm", "md", "lg", "2xl", "4xl", "5xl", "6xl"],
       control: {
-        type: 'inline-radio',
+        type: "inline-radio",
       },
     },
   },
-} as Meta<HeadingProps>
+} as Meta<HeadingProps>;
 
-export const Primary: StoryObj<HeadingProps> = {}
+export const Primary: StoryObj<HeadingProps> = {};
 
 export const CustomTag: StoryObj<HeadingProps> = {
   args: {
-    children: 'H1 Heading',
-    as: 'h1',
+    children: "H1 Heading",
+    as: "h1",
   },
-}
+};

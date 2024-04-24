@@ -1,4 +1,4 @@
 {
-  "extends": "@macci-ignite-ui/ts-config/base.json",
+  "extends": "@feponiel-ignite-ui/ts-config/base.json",
   "include": ["src"]
 }
