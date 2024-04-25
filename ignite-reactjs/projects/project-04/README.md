@@ -37,4 +37,4 @@ npm run dev
 ReactJS, NextJS, Stitches, TypeScript, Next API Routes, Axios, Stripe.
 
 ## More about
-<a href="https://ignite-reactjs-project-04-ignite-shop.vercel.app">Deploy</a> | <a href="https://www.figma.com/file/HotKgAtvZ0xhGlvOQFhDCh/Ignite-Shop-•-Projeto-React-(Copy)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-04/LICENSE">License</a>
+<a href="https://www.figma.com/file/HotKgAtvZ0xhGlvOQFhDCh/Ignite-Shop-•-Projeto-React-(Copy)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-04/LICENSE">License</a>

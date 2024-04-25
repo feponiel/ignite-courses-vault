@@ -22,4 +22,4 @@ npm run dev
 Vite, ReactJS, CSS Modules, TypeScript, Local Storage.
 
 ## More about
-<a href="https://ignite-reactjs-project-01-ignite-feed.vercel.app">Deploy</a> | <a href="https://www.figma.com/file/JuCGXtGkQEVduYM7KlkkB7/Ignite-Feed-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-01/LICENSE">License</a>
+<a href="https://www.figma.com/file/JuCGXtGkQEVduYM7KlkkB7/Ignite-Feed-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-01/LICENSE">License</a>
