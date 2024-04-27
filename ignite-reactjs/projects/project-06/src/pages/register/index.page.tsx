@@ -13,14 +13,14 @@ import { NextSeo } from 'next-seo'
 const registerFormSchema = zod.object({
   username: zod
     .string()
-    .min(3, { message: 'O usuário precisa ter pelo menos 3 letras.' })
+    .min(3, { message: 'The username must have 3 characters at least!' })
     .regex(/^([a-z\\-]+)$/i, {
-      message: 'O usuário pode conter apenas letras e hífens.',
+      message: 'The username can only contain letters and hyphens!',
     })
     .transform((username) => username.toLowerCase()),
   name: zod
     .string()
-    .min(3, { message: 'O nome precisa ter pelo menos 3 letras.' }),
+    .min(3, { message: 'The name must have 3 characters at least!' }),
 })
 
 type RegisterFormData = zod.infer<typeof registerFormSchema>
@@ -62,14 +62,14 @@ export default function Register() {
 
   return (
     <>
-      <NextSeo title="Crie seu perfil | Ignite Call" />
+      <NextSeo title="Create your profile | Ignite Call" />
 
       <Container>
         <Header>
-          <Heading as="strong">Bem-vindo ao Ignite Call!</Heading>
+          <Heading as="strong">Welcome to Ignite Call!</Heading>
           <Text>
-            Precisamos de algumas informações para criar seu perfil! Ah, você
-            pode editar essas informações depois.
+            We need some information to create your profile! Oh, and you can
+            edit these informations later.
           </Text>
 
           <MultiStep size={4} currentStep={1} />
@@ -77,10 +77,10 @@ export default function Register() {
 
         <Form as="form" onSubmit={handleSubmit(handleRegister)}>
           <label>
-            <Text size="sm">Nome de usuário</Text>
+            <Text size="sm">Username</Text>
             <TextInput
               prefix="ignite.com/"
-              placeholder="seu-usuário"
+              placeholder="your-username"
               {...register('username')}
             />
             {errors.username && (
@@ -89,15 +89,15 @@ export default function Register() {
           </label>
 
           <label>
-            <Text size="sm">Nome completo</Text>
-            <TextInput placeholder="Seu nome" {...register('name')} />
+            <Text size="sm">Full name</Text>
+            <TextInput placeholder="Your name" {...register('name')} />
             {errors.name && (
               <FormError size="sm">{errors.name.message}</FormError>
             )}
           </label>
 
           <Button type="submit" disabled={isSubmitting}>
-            Próximo Passo
+            Next step
             <ArrowRight />
           </Button>
         </Form>

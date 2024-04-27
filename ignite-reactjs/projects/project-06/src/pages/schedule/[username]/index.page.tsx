@@ -18,7 +18,7 @@ export default function Schedule({
 }: ScheduleProps) {
   return (
     <>
-      <NextSeo title="Agendamento | Ignite Call" />
+      <NextSeo title="Scheduling | Ignite Call" />
 
       <Container>
         <UserHeader>

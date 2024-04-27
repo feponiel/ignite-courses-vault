@@ -11,8 +11,8 @@ import { useRouter } from 'next/router'
 const confirmFormSchema = zod.object({
   name: zod
     .string()
-    .min(3, { message: 'O nome precisa ter no mínimo 3 caracteres' }),
-  email: zod.string().email({ message: 'Digite um e-mail válido' }),
+    .min(3, { message: 'The username must have 3 characters at least!' }),
+  email: zod.string().email({ message: 'Type a valid email' }),
   observations: zod.string().nullable(),
 })
 
@@ -53,8 +53,8 @@ export function ConfirmStep({
     onCancelConfirmation()
   }
 
-  const describedDate = dayjs(schedulingDate).format('DD[ de ]MMMM[ de ]YYYY')
-  const describedTime = dayjs(schedulingDate).format('HH:mm[h]')
+  const describedDate = dayjs(schedulingDate).format('MMMM DD, YYYY')
+  const describedTime = dayjs(schedulingDate).format('hh:00 A')
 
   return (
     <ConfirmForm as="form" onSubmit={handleSubmit(handleConfirmScheduling)}>
@@ -69,28 +69,28 @@ export function ConfirmStep({
         </Text>
       </FormHeader>
       <label>
-        <Text size="sm">Nome completo</Text>
-        <TextInput placeholder="Seu nome" {...register('name')} />
+        <Text size="sm">Full name</Text>
+        <TextInput placeholder="Your name" {...register('name')} />
         {errors.name && <FormError size="sm">{errors.name.message}</FormError>}
       </label>
       <label>
-        <Text size="sm">Endereço de e-mail</Text>
-        <TextInput placeholder="Seu e-mail" {...register('email')} />
+        <Text size="sm">Email address</Text>
+        <TextInput placeholder="Your email" {...register('email')} />
         {errors.email && (
           <FormError size="sm">{errors.email.message}</FormError>
         )}
       </label>
       <label>
-        <Text size="sm">Observações</Text>
+        <Text size="sm">Observations</Text>
         <TextArea {...register('observations')} />
       </label>
 
       <FormActions>
         <Button type="button" variant="tertiary" onClick={onCancelConfirmation}>
-          Cancelar
+          Cancel
         </Button>
         <Button type="submit" disabled={isSubmitting}>
-          Confirmar
+          Confirm
         </Button>
       </FormActions>
     </ConfirmForm>

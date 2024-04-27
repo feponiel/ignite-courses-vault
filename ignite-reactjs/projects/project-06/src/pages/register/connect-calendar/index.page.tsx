@@ -24,14 +24,14 @@ export default function ConnectCalendar() {
 
   return (
     <>
-      <NextSeo title="Conectar calendário | Ignite Call" noindex />
+      <NextSeo title="Connect the calendar | Ignite Call" noindex />
 
       <Container>
         <Header>
-          <Heading as="strong">Conecte sua agenda!</Heading>
+          <Heading as="strong">Conenect your calendar!</Heading>
           <Text>
-            Conecte o seu calendário para verificar automaticamente as horas
-            ocupadas e os novos eventos à medida em que são agendados.
+            Connect your calendar to automatically check your busy hours and new
+            events as they are scheduled.
           </Text>
 
           <MultiStep size={4} currentStep={2} />
@@ -39,11 +39,11 @@ export default function ConnectCalendar() {
 
         <ConnectBox>
           <ConnectItem>
-            <Text>Google Agenda</Text>
+            <Text>Google Calendar</Text>
 
             {isSignedIn ? (
               <Button size="sm" disabled>
-                Conectado
+                Connected
                 <Check weight="bold" />
               </Button>
             ) : (
@@ -52,7 +52,7 @@ export default function ConnectCalendar() {
                 variant="secondary"
                 onClick={handleConnectCalendar}
               >
-                Conectar
+                Connect
                 <ArrowRight />
               </Button>
             )}
@@ -60,8 +60,8 @@ export default function ConnectCalendar() {
 
           {hasAuthError && (
             <AuthError>
-              Ocorreu um erro na conecção com o Google Agenda. Por favor, cheque
-              as permissões e tente novamente.
+              An error occurred on connecting to Google Calendar. Please check
+              your permissions and try again later.
             </AuthError>
           )}
 
@@ -70,7 +70,7 @@ export default function ConnectCalendar() {
             onClick={handleNavigateToNextStep}
             disabled={!isSignedIn}
           >
-            Próximo Passo
+            Next step
             <ArrowRight />
           </Button>
         </ConnectBox>

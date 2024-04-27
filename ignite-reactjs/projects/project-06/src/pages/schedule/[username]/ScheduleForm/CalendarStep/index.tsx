@@ -30,9 +30,9 @@ export function CalendarStep({ onSelectDateTime }: CalendarStepProps) {
 
   const isDateSelected = !!selectedDate
 
-  const weekDay = selectedDate ? dayjs(selectedDate).format('dddd') : null
+  const weekDay = selectedDate ? dayjs(selectedDate).format('dddd,') : null
   const describedDate = selectedDate
-    ? dayjs(selectedDate).format('DD[ de ]MMMM')
+    ? dayjs(selectedDate).format('MMMM DD')
     : null
 
   const selectedDateWithoutTime = selectedDate
@@ -45,6 +45,7 @@ export function CalendarStep({ onSelectDateTime }: CalendarStepProps) {
       const response = await api.get(`/users/${username}/availability`, {
         params: {
           date: selectedDateWithoutTime,
+          timezoneOffset: selectedDate ? selectedDate.getTimezoneOffset() : 0,
         },
       })
 
@@ -81,7 +82,7 @@ export function CalendarStep({ onSelectDateTime }: CalendarStepProps) {
                   onClick={() => handleSelectTime(hour)}
                   disabled={!availability?.availableTimes.includes(hour)}
                 >
-                  {String(hour).padStart(2, '0')}:00h
+                  {dayjs().hour(hour).format('hh:00 A')}
                 </TimePickerItem>
               )
             })}
