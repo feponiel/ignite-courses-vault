@@ -66,5 +66,7 @@ npm run dev
 ## Technologies & Tools
 ReactJS, NextJS, Stitches, TypeScript, React Query, Next API Routes, oAuth, Google Calendar API, Axios.
 
+<br />
+
 ## More about
 <a href="https://www.figma.com/file/AguHzZrqcMUVta7MEJTQP9/Ignite-Call-(Community)">Figma Layout</a> | <a href="https://opensource.org/license/mit">License</a>
