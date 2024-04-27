@@ -22,4 +22,4 @@ npm run dev
 ReactJS, Stitches, TypeScript, Radix UI, Storybook.
 
 ## More about
-<a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-05/LICENSE">License</a>
+<a href="https://opensource.org/license/mit">License</a>
