@@ -61,6 +61,8 @@ With the database container running, the last step is open another terminal inst
 npm run dev
 ```
 
+<br />
+
 ## Technologies & Tools
 ReactJS, NextJS, Stitches, TypeScript, React Query, Next API Routes, oAuth, Google Calendar API, Axios.
 
