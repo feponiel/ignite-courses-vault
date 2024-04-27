@@ -28,4 +28,4 @@ npm run dev
 Vite, ReactJS, Styled-Components, TypeScript, React Router DOM, React Hook Form, React Context API, Zod, Axios, JSON Server.
 
 ## More about
-<a href="https://www.figma.com/file/tbN3IRcIeyNlLjF0hkcGqW/DT-Money-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-03/LICENSE">License</a>
+<a href="https://www.figma.com/file/tbN3IRcIeyNlLjF0hkcGqW/DT-Money-(Community)">Figma Layout</a> | <a href="https://opensource.org/license/mit">License</a>

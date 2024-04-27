@@ -22,4 +22,4 @@ npm run dev
 Vite, ReactJS, Styled-Components, TypeScript, React Router DOM, React Hook Form, React Context API, Zod, Local Storage.
 
 ## More about
-<a href="https://www.figma.com/file/POPSNs7QkYI3Hr8qyoA4kU/Ignite-Timer-(Community)">Figma Layout</a> | <a href="https://github.com/feponiel/ignite-courses-vault/blob/main/ignite-reactjs/projects/project-02/LICENSE">License</a>
+<a href="https://www.figma.com/file/POPSNs7QkYI3Hr8qyoA4kU/Ignite-Timer-(Community)">Figma Layout</a> | <a href="https://opensource.org/license/mit">License</a>
