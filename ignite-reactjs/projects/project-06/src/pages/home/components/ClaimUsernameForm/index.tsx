@@ -9,9 +9,9 @@ import { useRouter } from 'next/router'
 const claimUsernameFormSchema = zod.object({
   username: zod
     .string()
-    .min(3, { message: 'O usuário precisa ter pelo menos 3 letras.' })
+    .min(3, { message: 'The username must have 3 characters at least!' })
     .regex(/^([a-z\\-]+)$/i, {
-      message: 'O usuário pode conter apenas letras e hífens.',
+      message: 'The username can only contain letters and hyphens!',
     })
     .transform((username) => username.toLowerCase()),
 })
@@ -41,11 +41,11 @@ export function ClaimUsernameForm() {
         <TextInput
           size="sm"
           prefix="ignite.com/"
-          placeholder="Seu usuário"
+          placeholder="Your username"
           {...register('username')}
         />
         <Button type="submit" size="sm" disabled={isSubmitting}>
-          Reservar
+          Reserve
           <ArrowRight />
         </Button>
       </Form>
@@ -54,7 +54,7 @@ export function ClaimUsernameForm() {
         <Text size="sm">
           {errors.username
             ? errors.username?.message
-            : 'Digite o nome do usuário desejado'}
+            : 'Enter the desired username'}
         </Text>
       </FormNote>
     </>

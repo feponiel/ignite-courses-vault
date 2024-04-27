@@ -10,16 +10,16 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Descomplique sua agenda | Ignite Call"
-        description="Conecte seu calendário e permita que as pessoas marquem agendamentos no seu tempo livre."
+        title="Uncomplicate your schedule | Ignite Call"
+        description="Connect your calendar and allow people to schedule meetings in your free time."
       />
 
       <Container>
         <Hero>
-          <Heading size="4xl">Agendamento descomplicado</Heading>
+          <Heading size="4xl">Hassle-free scheduling</Heading>
           <Text size="xl">
-            Conecte seu calendário e permita que as pessoas marquem agendamentos
-            no seu tempo livre.
+            Connect your calendar and allow people to schedule meetings in your
+            free time.
           </Text>
 
           <ClaimUsernameForm />
@@ -31,7 +31,7 @@ export default function Home() {
             height={400}
             quality={100}
             priority
-            alt="Calendário simbolizando a aplicação em funcionamento"
+            alt="Calendar symbolizing the application running"
           />
         </Preview>
       </Container>

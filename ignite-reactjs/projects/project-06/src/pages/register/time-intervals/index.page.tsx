@@ -39,7 +39,7 @@ const TimeIntervalsFormSchema = zod.object({
     .length(7)
     .transform((intervals) => intervals.filter((interval) => interval.enabled))
     .refine((intervals) => intervals.length > 0, {
-      message: 'Você precisa selecionar pelo menos um dia da semana.',
+      message: 'You must select at least one day of the week!',
     })
     .transform((intervals) => {
       return intervals.map((interval) => {
@@ -58,8 +58,7 @@ const TimeIntervalsFormSchema = zod.object({
         )
       },
       {
-        message:
-          'O horário de término deve ser pelo menos 1 hora distante do início.',
+        message: 'The end time must be at least 1 hour distant from the start.',
       },
     ),
 })
@@ -112,14 +111,13 @@ export default function TimeIntervals() {
 
   return (
     <>
-      <NextSeo title="Definir horários | Ignite Call" noindex />
+      <NextSeo title="Set your availability | Ignite Call" noindex />
 
       <Container>
         <Header>
-          <Heading as="strong">Quase lá!</Heading>
+          <Heading as="strong">Almost there!</Heading>
           <Text>
-            Defina o intervalo de horários que você está disponível em cada dia
-            da semana
+            Set the time interval you will be available each day of the week
           </Text>
 
           <MultiStep size={4} currentStep={3} />
@@ -173,7 +171,7 @@ export default function TimeIntervals() {
           )}
 
           <Button type="submit" disabled={isSubmitting}>
-            Próximo passo
+            Next step
             <ArrowRight />
           </Button>
         </IntervalBox>

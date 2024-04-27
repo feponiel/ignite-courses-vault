@@ -49,14 +49,14 @@ export default function UpdateProfile() {
 
   return (
     <>
-      <NextSeo title="Finalizar | Ignite Call" noindex />
+      <NextSeo title="Finish | Ignite Call" noindex />
 
       <Container>
         <Header>
-          <Heading as="strong">Bem-vindo ao Ignite Call!</Heading>
+          <Heading as="strong">Welcome to Ignite Call!</Heading>
           <Text>
-            Precisamos de algumas informações para criar seu perfil! Ah, você
-            pode editar essas informações depois.
+            We need some information to create your profile! Oh, and you can
+            edit these informations later.
           </Text>
 
           <MultiStep size={4} currentStep={4} />
@@ -64,7 +64,7 @@ export default function UpdateProfile() {
 
         <ProfileBox as="form" onSubmit={handleSubmit(handleUpdateProfile)}>
           <label>
-            <Text size="sm">Foto de perfil</Text>
+            <Text size="sm">Profile picture</Text>
             <Avatar
               src={session.data?.user.avatar_url}
               alt={session.data?.user.name}
@@ -72,15 +72,15 @@ export default function UpdateProfile() {
           </label>
 
           <label>
-            <Text size="sm">Sobre você</Text>
-            <TextArea placeholder="Seu nome" {...register('bio')} />
+            <Text size="sm">About you</Text>
+            <TextArea placeholder="About you..." {...register('bio')} />
             <FormNote size="sm">
-              Fale um pouco sobre você. Isto será exibido em sua página pessoal
+              Talk a little about you. This will be shown in your bio.
             </FormNote>
           </label>
 
           <Button type="submit" disabled={isSubmitting}>
-            Finalizar
+            Finish
             <ArrowRight />
           </Button>
         </ProfileBox>
