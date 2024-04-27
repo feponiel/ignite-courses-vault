@@ -15,6 +15,9 @@ npm install
 Then, you'll need to set your [Google oAuth API Credentials](https://docs.stripe.com/keys) inside a .env file.
 
 > You can read more about in: [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
+ 
+<br />
+
 
 ### It's good to remember:
 When creating your oAuth Client ID Credential, it's very important to set `http://localhost:3000/api/auth/callback/google"` as an Authorized Redirect URI
