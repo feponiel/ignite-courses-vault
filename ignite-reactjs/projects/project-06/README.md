@@ -36,6 +36,8 @@ GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_OAUTH_CLIENT_SECRET"
 NEXTAUTH_SECRET="RANDOM_TEXT"
 ```
 
+<br />
+
 After these steps, you will need to run the migrations
 
 ```
