@@ -3,6 +3,8 @@
 # Ignite ReactJS Project 06: Ignite Call
 Ignite Call is a scheduling application integrated with Google Calendar, where you can make easy the process of scheduling meetings.
 
+<br />
+
 ## Get started
 To enjoy this application you will need to run the project on your computer. Start downloading the project and installing the dependencies:
 
@@ -17,7 +19,6 @@ Then, you'll need to set your [Google oAuth API Credentials](https://docs.stripe
 > You can read more about in: [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
  
 <br />
-
 
 ### It's good to remember:
 When creating your oAuth Client ID Credential, it's very important to set `http://localhost:3000/api/auth/callback/google"` as an Authorized Redirect URI
