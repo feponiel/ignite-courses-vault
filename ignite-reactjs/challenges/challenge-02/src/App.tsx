@@ -5,17 +5,20 @@ import { ClientInfoContextProvider } from './contexts/ClientInfoContext'
 import { Router } from './Router'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/defaultTheme'
+import { CoffeeContextProvider } from './contexts/CoffeeContext'
 
 export function App() {
   return (
     <BrowserRouter>
       <ThemeProvider theme={defaultTheme}>
-        <CartContextProvider>
-          <ClientInfoContextProvider>
-            <Router />
-            <GlobalStyle />
-          </ClientInfoContextProvider>
-        </CartContextProvider>
+        <CoffeeContextProvider>
+          <CartContextProvider>
+            <ClientInfoContextProvider>
+              <Router />
+              <GlobalStyle />
+            </ClientInfoContextProvider>
+          </CartContextProvider>
+        </CoffeeContextProvider>
       </ThemeProvider>
     </BrowserRouter>
   )

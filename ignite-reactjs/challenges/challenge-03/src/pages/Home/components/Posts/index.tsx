@@ -3,13 +3,14 @@ import { PostList, PostsContainer } from './styles'
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
+import 'dotenv/config'
 
 export function Posts() {
   const [postList, setPostList] = useState([])
 
   const createPostList = async () => {
     const response = await axios.get(
-      'https://api.github.com/repos/felipemacci/Challenge-03_Ignite-ReactJS/issues',
+      'https://api.github.com/repos/feponiel/ignite-courses-vault/issues',
     )
 
     setPostList(await response.data)

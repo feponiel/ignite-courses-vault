@@ -3,6 +3,8 @@
 # Ignite ReactJS Project 03: DT Money
 DT Money is a little finance application where you can control your income and expenses.
 
+<br />
+
 ## Get started
 To enjoy this little application you will need to run the project on your computer. Start downloading the project and installing the dependencies:
 
@@ -24,8 +26,12 @@ After that, you'll be able to run the project on your machine without any proble
 npm run dev
 ```
 
+<br />
+
 ## Technologies & Tools
 Vite, ReactJS, Styled-Components, TypeScript, React Router DOM, React Hook Form, React Context API, Zod, Axios, JSON Server.
+
+<br />
 
 ## More about
 <a href="https://www.figma.com/file/tbN3IRcIeyNlLjF0hkcGqW/DT-Money-(Community)">Figma Layout</a> | <a href="https://opensource.org/license/mit">License</a>

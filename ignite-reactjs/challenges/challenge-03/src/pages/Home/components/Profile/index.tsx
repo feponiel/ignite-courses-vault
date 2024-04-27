@@ -9,7 +9,7 @@ export function Profile() {
   const setGithubUser = async () => {
     try {
       const response = await axios.get(
-        `https://api.github.com/users/felipemacci`,
+        `https://api.github.com/users/feponiel`,
       )
 
       setUserInfo(await response.data)

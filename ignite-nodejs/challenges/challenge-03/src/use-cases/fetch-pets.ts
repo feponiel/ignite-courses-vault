@@ -23,7 +23,7 @@ export class FetchPetsUseCase {
     filter: FetchPetsUseCaseRequest,
   ): Promise<FetchPetsUseCaseResponse> {
     if (!filter.city) {
-      throw new AppError('You must provide a city to fetch pets', 400)
+      throw new AppError('You must provide a city to fetch pets!', 400)
     }
 
     const pets = await this.petsRepository.findMany(filter)

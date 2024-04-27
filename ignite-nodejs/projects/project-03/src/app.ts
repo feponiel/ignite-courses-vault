@@ -6,6 +6,7 @@ import fastifyJwt from '@fastify/jwt'
 import { gymsRoutes } from './http/controllers/gyms/routes'
 import { checkInRoutes } from './http/controllers/checkIns/routes'
 import fastifyCookie from '@fastify/cookie'
+import { AppError } from './errors/app-error'
 
 export const app = fastify()
 
@@ -27,9 +28,15 @@ app.register(gymsRoutes)
 app.register(checkInRoutes)
 
 app.setErrorHandler((error, _, res) => {
+  if (error instanceof AppError) {
+    return res.status(error.statusCode).send({
+      message: error.message,
+    })
+  }
+
   if (error instanceof ZodError) {
     return res.status(400).send({
-      message: 'Validation error',
+      message: 'Validation error!',
       issues: error.format(),
     })
   }
