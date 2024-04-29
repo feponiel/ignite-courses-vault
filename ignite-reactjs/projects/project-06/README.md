@@ -65,7 +65,7 @@ npm run dev
 <br />
 
 ## Technologies & Tools
-ReactJS, NextJS, Stitches, TypeScript, React Query, Next API Routes, oAuth, Google Calendar API, Axios.
+ReactJS, NextJS, Stitches, TypeScript, Prisma, React Query, Next API Routes, oAuth, Google Calendar API, Axios.
 
 <br />
 
