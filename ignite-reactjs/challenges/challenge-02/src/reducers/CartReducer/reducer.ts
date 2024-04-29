@@ -1,20 +1,10 @@
+import { useContext } from 'react'
 import { ActionTypes } from './actions'
-import { api } from '../../lib/api'
-
-export interface Coffee {
-  name: string
-  description: string
-  image: string
-  tags: string[]
-  price: number
-  amount: number
-}
-
-export const coffeeList: Coffee[] = await api
-  .get('coffeeList')
-  .then((response) => response.data)
+import { Coffee, CoffeeContext } from '../../contexts/CoffeeContext'
 
 export function CartReducer(state: Coffee[], action: any) {
+  const { coffeeList } = useContext(CoffeeContext)
+
   switch (action.type) {
     case ActionTypes.ADD_NEW_ITEM:
       if (state.some((coffee) => coffee.name === action.payload.name)) {

@@ -1,13 +1,16 @@
-import { createContext, ReactNode, useEffect, useReducer } from 'react'
 import {
-  CartReducer,
-  Coffee,
-  coffeeList,
-} from '../reducers/CartReducer/reducer'
+  createContext,
+  ReactNode,
+  useContext,
+  useEffect,
+  useReducer,
+} from 'react'
+import { CartReducer } from '../reducers/CartReducer/reducer'
 import {
   addNewItemAction,
   removeItemAction,
 } from '../reducers/CartReducer/actions'
+import { Coffee, CoffeeContext } from './CoffeeContext'
 
 interface CartContextData {
   coffeeList: Coffee[]
@@ -23,6 +26,8 @@ interface CartContextProviderProps {
 }
 
 export function CartContextProvider({ children }: CartContextProviderProps) {
+  const { coffeeList } = useContext(CoffeeContext)
+
   const [cart, dispatch] = useReducer(CartReducer, [], () => {
     const storedCoffeeList = localStorage.getItem(
       '@ignite_coffee-delivery:cart-1.0.0',
@@ -31,6 +36,8 @@ export function CartContextProvider({ children }: CartContextProviderProps) {
     if (storedCoffeeList) {
       return JSON.parse(storedCoffeeList)
     }
+
+    return []
   })
 
   useEffect(() => {

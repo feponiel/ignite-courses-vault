@@ -24,8 +24,8 @@ export function CoffeeCard({
         <img src={image} alt="" />
 
         <ul>
-          {tags.map((tag) => {
-            return <li>{tag}</li>
+          {tags.map((tag, index) => {
+            return <li key={name + ':' + index}>{tag}</li>
           })}
         </ul>
       </header>
