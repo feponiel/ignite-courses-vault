@@ -21,7 +21,7 @@ Then, you'll need to set your [Google oAuth API Credentials](https://docs.stripe
 <br />
 
 ### It's good to remember:
-When creating your Google oAuth Client ID Credential, it's very important to set `http://localhost:3000/api/auth/callback/google"` as an Authorized Redirect URI
+When creating your Google oAuth Client ID Credential, it's very important to set `http://localhost:3000/api/auth/callback/google` as an Authorized Redirect URI
 
 > You shouldn't forget to [active the Google Calendar API](https://console.cloud.google.com/apis/library/calendar-json.googleapis.com) in your project
 
