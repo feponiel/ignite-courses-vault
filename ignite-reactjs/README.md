@@ -1,5 +1,5 @@
 # Ignite - ReactJS Specialization
-React JS is an open-source JavaScript library, maintained by Facebook, that is used to build interactive and dynamic user interfaces (UI). With an approach based on reusable components, React enables efficient development of modern web applications. Its simple and effective architecture makes it easy to create responsive and high-performance interfaces.
+ReactJS is an open-source JavaScript library, maintained by Facebook, that is used to build interactive and dynamic user interfaces (UI). With an approach based on reusable components, React enables efficient development of modern web applications. Its simple and effective architecture makes it easy to create responsive and high-performance interfaces.
 
 ## Projects
 
