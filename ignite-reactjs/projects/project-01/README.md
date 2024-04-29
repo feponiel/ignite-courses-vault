@@ -23,7 +23,7 @@ npm run dev
 <br />
 
 ## Technologies & Tools
-Vite, ReactJS, CSS Modules, TypeScript, Local Storage.
+Vite, ReactJS, CSS Modules, TypeScript.
 
 <br />
 
