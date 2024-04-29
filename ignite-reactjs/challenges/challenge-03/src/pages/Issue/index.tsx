@@ -35,7 +35,7 @@ export function Issue() {
     const getFullIssue = async () => {
       try {
         const response = await axios.get(
-          `https://api.github.com/repos/felipemacci/Challenge-03_Ignite-ReactJS/issues/${issueId}`,
+          `https://api.github.com/repos/feponiel/Challenge-03_Ignite-ReactJS/issues/${issueId}`,
         )
 
         setIssue(await response.data)
