@@ -42,13 +42,7 @@ NEXTAUTH_SECRET="RANDOM_TEXT"
 
 <br />
 
-After these steps, you will need to run the migrations
-
-```
-npx prisma migrate dev
-```
-
-Therefore, all that remains is to run the MySQL container.
+Next, you will need to run the MySQL container.
 
 > Is required to have [Docker](https://www.docker.com/get-started/) installed on your machine.
 
@@ -56,7 +50,13 @@ Therefore, all that remains is to run the MySQL container.
 docker-compose up
 ```
 
-With the database container running, the last step is open another terminal instance and finally run the application:
+After these steps, you will need to run the migrations
+
+```
+npx prisma migrate dev
+```
+
+Now, the last step is finally run the application:
 
 ```
 npm run dev
