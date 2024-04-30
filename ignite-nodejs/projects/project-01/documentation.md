@@ -74,5 +74,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```
 </details>
 
+<br />
+
 ## Common errors
 `[400] Bad Request`: If this error is occurring, you're probably trying to make a request without enough data, or incorrect data.
