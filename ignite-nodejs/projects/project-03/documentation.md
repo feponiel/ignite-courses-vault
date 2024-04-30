@@ -188,7 +188,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
 ---
 
 <details>
-  <summary><code>[PATCH] /token/refresh</code>: Validate a checkIn.</summary>
+  <summary><code>[PATCH] /token/refresh</code>: Create a new session token.</summary>
 
   **Output**:
   > Response: 200 (OK)
