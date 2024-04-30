@@ -46,9 +46,8 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   <summary><code>[PUT] /users/:id</code>: Edit a specific user.</summary>
 
   **Input (JSON Body)**:
+  > OBS: You can edit both name and email
   ```json
-  // OBS: You can edit both name and email
-
   {
     "name": "Felipe Daniel"
   }
