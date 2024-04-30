@@ -9,14 +9,12 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```json
   {
     "name": "Felipe Elias",
-    "email": "felipedaniel.me@gmail.com",
+    "email": "felipedaniel.me@gmail.com"
   }
   ```
 
   **Output**:
-  ```json
-  // Response: 201 (Created)
-  ```
+  > Response: 201 (Created)
 </details>
 
 ---
@@ -24,23 +22,22 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
 <details>
   <summary><code>[GET] /users</code>: Returns all users registered.</summary>
 
-**Output**:
-```json
-// Response: 200 (OK)
-
-[
-	{
-		"id": "e8c21e9c-a362-48e2-869b-99c87e8371a8",
-		"name": "Felipe Elias",
-		"email": "felipedaniel.me@gmail.com"
-	},
-  {
-		"id": "7f877788-c364-4144-8b48-810a09fea70e",
-		"name": "John Doe",
-		"email": "johndoe@example.com"
-	}
-]
-```
+  **Output**:
+  > Response: 200 (OK)
+  ```json
+  [
+    {
+      "id": "e8c21e9c-a362-48e2-869b-99c87e8371a8",
+      "name": "Felipe Elias",
+      "email": "felipedaniel.me@gmail.com"
+    },
+    {
+      "id": "7f877788-c364-4144-8b48-810a09fea70e",
+      "name": "John Doe",
+      "email": "johndoe@example.com"
+    }
+  ]
+  ```
 </details>
 
 ---
@@ -58,9 +55,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```
 
   **Output**:
-  ```json
-  // Response: 204 (No content)
-  ```
+  > Response: 204 (No content)
 </details>
 
 ---
@@ -69,9 +64,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   <summary><code>[DELETE] /users/:id</code>: Delete a specific user.</summary>
 
   **Output**:
-  ```json
-  // Response: 204 (No content)
-  ```
+  > Response: 204 (No content)
 </details>
 
 <br />
