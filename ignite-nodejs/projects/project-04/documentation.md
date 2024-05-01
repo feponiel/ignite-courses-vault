@@ -66,7 +66,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```json
   {
     "content": "Answer content",
-    "attachments": ["d6862606-d486-49bb-a718-219e1bc8ae76"],
+    "attachments": ["d6862606-d486-49bb-a718-219e1bc8ae76"]
   }
   ```
 
@@ -82,7 +82,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   **Input (JSON Body)**:
   ```json
   {
-    "content": "Comment content",
+    "content": "Comment content"
   }
   ```
 
@@ -98,7 +98,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   **Input (JSON Body)**:
   ```json
   {
-    "content": "Comment content",
+    "content": "Comment content"
   }
   ```
 
@@ -120,7 +120,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   > Response: 201 (Created)
   ```json
   {
-    "attachmentId": "b092ffc6-5829-4ec6-a367-8d6d8bde75df",
+    "attachmentId": "b092ffc6-5829-4ec6-a367-8d6d8bde75df"
   }
   ```
 </details>
@@ -299,7 +299,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   {
     "title": "New title",
     "content": "New content",
-    "attachments": [],
+    "attachments": []
   }
   ```
 
@@ -317,7 +317,7 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```json
   {
     "content": "New answer content",
-    "attachments": [],
+    "attachments": []
   }
   ```
 
