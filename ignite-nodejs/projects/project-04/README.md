@@ -1,7 +1,7 @@
 <img src=".github/forum-banner.svg">
 
 # Ignite NodeJS Project 04: Forum REST API
-Forum is a complete forum REST API with Q&A and attachments system.
+Forum is a complete forum REST API with Q&A and attachments system made using the Domain-Driven Design approach.
 
 <br />
 
