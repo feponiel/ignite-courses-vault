@@ -199,7 +199,9 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
   ```
 </details>
 
-## Common errors
+<br />
+
+## Expected errors
 `[400] Validation error!`: You're probably trying to make a request without enough data, or incorrect data.
 
 `[401] Unauthorized!`: You're probably trying to access a private route without meeting the requirements (session or role).
