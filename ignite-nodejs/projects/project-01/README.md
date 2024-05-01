@@ -23,7 +23,7 @@ npm run dev
 <br />
 
 ## Technologies & Tools
-NodeJS, TypeScript.
+NodeJS, JavaScript.
 
 <br />
 
