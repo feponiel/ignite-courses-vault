@@ -51,7 +51,7 @@ npm run start:dev
 <br />
 
 ## Technologies & Tools
-NodeJS, Fastify, TypeScript, Prisma, Zod, Bcrypt, Vitest, Cookies.
+NodeJS, Fastify, TypeScript, Prisma, Docker, Zod, JWT, Bcrypt, Vitest, Cookies.
 
 <br />
 
