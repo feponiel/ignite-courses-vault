@@ -69,4 +69,10 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
 <br />
 
 ## Expected errors
-`[400] Bad Request`: If this error is occurring, you're probably trying to make a request without enough data, or incorrect data.
+`[400] Invalid or missing user information.`: If this error is occurring, you're probably trying to create an user without enough data, or incorrect data.
+
+`[404] Not found!`: You're probably trying to get a nonexistent resource.
+
+`[409] User already exists.`: If this error is occurring, you're probably trying create an user with an email already in use.
+
+`[409] Email is already in use.`: If this error is occurring, you're probably trying to edit an user with an email already in use.

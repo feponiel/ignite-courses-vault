@@ -17,7 +17,7 @@ export const routes = [
       } : null)
 
       if (users.length < 1) {
-        return res.end('No users here.')
+        return res.end(JSON.stringify([]))
       }
   
       return res.end(JSON.stringify(users))
@@ -54,7 +54,6 @@ export const routes = [
   
       return res
         .writeHead(201)
-        .end('The user has been created.')
     },
   },
 
@@ -67,8 +66,6 @@ export const routes = [
       try {
         database.delete('users', id)
       } catch (error) {
-        console.log(error.message)
-
         return res
           .writeHead(404)
           .end()
