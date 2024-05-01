@@ -1,7 +1,7 @@
 <img src=".github/ignite-ui-banner.svg">
 
 # Ignite ReactJS Project 05: Ignite UI (Design System)
-Ignite UI is a simple Design System made using ReactJS and Storybook
+Ignite UI is a simple Design System made using ReactJS and Storybook.
 
 <br />
 
