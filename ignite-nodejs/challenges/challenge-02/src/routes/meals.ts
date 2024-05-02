@@ -26,7 +26,7 @@ export async function mealsRoutes(app: FastifyInstance) {
 
     const { id } = requestParamsSchema.parse(req.params)
 
-    const meals = await database('meals')
+    const meal = await database('meals')
       .select('*')
       .where({
         id,
@@ -34,7 +34,7 @@ export async function mealsRoutes(app: FastifyInstance) {
       })
       .first()
 
-    return res.send({ meals })
+    return res.send({ meal })
   })
 
   app.post('/', async (req, res) => {
