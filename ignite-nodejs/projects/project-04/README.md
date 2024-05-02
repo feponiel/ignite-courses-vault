@@ -27,7 +27,7 @@ Then, you'll need to set your JWT RSA-256 Keys and [Amazon S3 Keys (Cloudflare)]
 
 <br />
 
-> You can see an example of how to setup your environment variables in [.env.example](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-reactjs/challenges/challenge-06/.env.example) and [.env.test.example](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-reactjs/challenges/challenge-06/.env.test.example)
+> You can see an example of how to setup your environment variables in [.env.example](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-nodejs/projects/project-04/.env.example) and [.env.test.example](https://github.com/feponiel/ignite-courses-vault/tree/main/ignite-nodejs/projects/project-04/.env.test.example)
 
 ```
 # Your .env file will look like this
