@@ -76,10 +76,10 @@ Basic documentation for use. Do not forget to follow the instructions to avoid e
 <br />
 
 ## Expected errors
-`[400] The request body is empty or incomplete.`: If this error is occurring, you're probably trying to create a task without enough data.
+`[400] The request body is empty or incomplete.`: You're probably trying to create a task without enough data.
 
-`[400] The request body has more data than it needs.`: If this error is occurring, you're probably trying to make a request with more data than it needs.
+`[400] The request body has more data than it needs.`: You're probably trying to make a request with more data than it needs.
 
-`[400] The request body is empty.`: If this error is occurring, you're probably trying to update a task without sending a body.
+`[400] The request body is empty.`: You're probably trying to update a task without sending a body.
 
-`[400] The request body has no title or description for the task.`: If this error is occurring, you're probably trying to update a task without sending a title or a description.
+`[400] The request body has no title or description for the task.`: You're probably trying to update a task without sending a title or a description.

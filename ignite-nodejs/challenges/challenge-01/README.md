@@ -1,6 +1,6 @@
 <img src=".github/task-list-banner.svg">
 
-# Ignite NodeJS Challenge 01: Task List
+# Ignite NodeJS Challenge 01: Task List REST API
 Task List is a very simple REST API made to organize your daily tasks.
 
 <br />
