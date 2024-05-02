@@ -47,7 +47,7 @@ export class RegisterPetUseCase {
   }: RegisterPetUseCaseRequest): Promise<RegisterPetUseCaseResponse> {
     if (energy_level < 1 || energy_level > 5) {
       throw new AppError(
-        'The energy level must be a number equal to or between 1 and 5',
+        'The energy level must be a number equal to or between 1 and 5!',
         400,
       )
     }
