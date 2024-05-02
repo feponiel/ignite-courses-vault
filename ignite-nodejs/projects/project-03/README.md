@@ -23,7 +23,7 @@ Then, you'll need to setup your `.env`.
 
 NODE_ENV="development"
 JWT_SECRET="RANDOM_TEXT"
-DATABASE_URL="postgresql://docker:docker@localhost:5432/ignite-nodejs-project-3?schema=public"
+DATABASE_URL="postgresql://docker:docker@localhost:5432/ignite-nodejs-project-03?schema=public"
 ```
 
 <br />
