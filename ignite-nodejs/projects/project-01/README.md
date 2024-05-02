@@ -1,6 +1,6 @@
 <img src=".github/user-crud-banner.svg">
 
-# Ignite NodeJS Project 01: User CRUD
+# Ignite NodeJS Project 01: User CRUD REST API
 User CRUD is a very simple REST API made to handle user creation (CRUD).
 
 <br />
