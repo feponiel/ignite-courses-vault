@@ -1,4 +1,4 @@
-# Forum API REST: Documentation
+# Forum REST API: Documentation
 Basic documentation for use. Do not forget to follow the instructions to avoid errors, they're not so detailed in the documentation!
 
 ## Routes
