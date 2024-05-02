@@ -1,6 +1,6 @@
 <img src=".github/daily-diet-banner.svg">
 
-# Ignite NodeJS Project 02: Daily Diet
+# Ignite NodeJS Challenge 02: Daily Diet REST API
 Daily Diet is a very simple REST API made to help you to control your diet.
 
 <br />
