@@ -1,6 +1,6 @@
 <img src=".github/transactions-banner.svg">
 
-# Ignite NodeJS Project 02: Transactions
+# Ignite NodeJS Project 02: Transactions REST API
 Transactions is a very simple REST API made to help you to control your balance.
 
 <br />
@@ -37,7 +37,7 @@ DATABASE_URL="./database/test.db"
 After these steps, you will need to run the migrations
 
 ```
-npx prisma migrate dev
+npm run knex -- migrate:latest
 ```
 
 Now, you can finally run the application:
