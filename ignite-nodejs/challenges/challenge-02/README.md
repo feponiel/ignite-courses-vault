@@ -49,7 +49,7 @@ npm run dev
 <br />
 
 ## Technologies & Tools
-NodeJS, Fastify, TypeScript, Knex, Zod, Cookies.
+NodeJS, Fastify, TypeScript, Knex, Zod, Vitest, Cookies.
 
 <br />
 
