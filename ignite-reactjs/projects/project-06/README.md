@@ -14,7 +14,7 @@ To enjoy this application you will need to run the project on your computer. Sta
 npm install
 ```
 
-Then, you'll need to set your [Google oAuth API Credentials](https://docs.stripe.com/keys) inside a .env file.
+Then, you'll need to set your [Google oAuth API Credentials](https://console.cloud.google.com/projectselector2/apis/credentials/oauthclient) inside a .env file.
 
 > You can read more about in: [Using OAuth 2.0 to Access Google APIs](https://developers.google.com/identity/protocols/oauth2)
  
@@ -30,7 +30,8 @@ When creating your oAuth Client ID Credential, it's very important to set `http:
 ```
 # Your .env file will look like this
 
-DATABASE_URL="mysql://root:docker@localhost:3306/ignitecall"
+DATABASE_URL="postgresql://postgres:docker@localhost:5432/ignitecall"
+DATABASE_DIRECT_URL="postgresql://postgres:docker@localhost:5432/ignitecall"
 
 GOOGLE_CLIENT_ID="YOUR_GOOGLE_OAUTH_CLIENT_ID"
 GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_OAUTH_CLIENT_SECRET"
@@ -42,7 +43,7 @@ NEXTAUTH_SECRET="RANDOM_TEXT"
 
 <br />
 
-Next, you will need to run the MySQL container.
+Next, you will need to run the PostgreSQL container.
 
 > Is required to have [Docker](https://www.docker.com/get-started/) installed on your machine.
 
